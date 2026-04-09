@@ -27,8 +27,8 @@ python nic_decoder.py
 ## Build EXE (Windows)
 py -m PyInstaller --onefile --windowed --icon=NIC_Decoder.ico nic_decoder.py
 
-Output file will be in:
-dist/nic_decoder.exe
+Output file will be in: **dist/nic_decoder.exe**
+
 
 ## Project Structure
 NIC_Decoder/
@@ -42,14 +42,6 @@ NOTE:
 - dist/ ignored by git
 - .spec ignored by git
 
-## Git Commands (UPLOAD PROJECT)
-
-git add .
-git commit -m "Final NIC Decoder project"
-git push origin main
-
-If push fails:
-git push --set-upstream origin main
 
 ## Author
 Visal Weerakoon
